@@ -1,0 +1,481 @@
+block,source,seed,arm,budget
+7 Core Prosodic,Dutch,42,frozen,5
+7 Core Prosodic,Dutch,42,target,20
+7 Core Prosodic,Dutch,43,frozen,100
+7 Core Prosodic,Dutch,43,target,50
+7 Core Prosodic,Dutch,44,frozen,20
+7 Core Prosodic,Dutch,44,target,20
+7 Core Prosodic,Dutch,45,frozen,50
+7 Core Prosodic,Dutch,45,target,10
+7 Core Prosodic,Dutch,46,frozen,10
+7 Core Prosodic,Dutch,46,target,5
+7 Core Prosodic,Dutch,47,frozen,30
+7 Core Prosodic,Dutch,47,target,30
+7 Core Prosodic,Dutch,48,frozen,100
+7 Core Prosodic,Dutch,48,target,20
+7 Core Prosodic,Dutch,49,frozen,100
+7 Core Prosodic,Dutch,49,target,100
+7 Core Prosodic,Dutch,50,frozen,20
+7 Core Prosodic,Dutch,50,target,100
+7 Core Prosodic,Dutch,51,frozen,30
+7 Core Prosodic,Dutch,51,target,100
+7 Core Prosodic,Dutch,52,frozen,50
+7 Core Prosodic,Dutch,52,target,20
+7 Core Prosodic,Dutch,53,frozen,30
+7 Core Prosodic,Dutch,53,target,10
+7 Core Prosodic,Dutch,54,frozen,5
+7 Core Prosodic,Dutch,54,target,100
+7 Core Prosodic,Dutch,55,frozen,100
+7 Core Prosodic,Dutch,55,target,50
+7 Core Prosodic,Dutch,56,frozen,50
+7 Core Prosodic,Dutch,56,target,50
+7 Core Prosodic,Dutch,57,frozen,50
+7 Core Prosodic,Dutch,57,target,20
+7 Core Prosodic,Dutch,58,frozen,50
+7 Core Prosodic,Dutch,58,target,10
+7 Core Prosodic,Dutch,59,frozen,100
+7 Core Prosodic,Dutch,59,target,100
+7 Core Prosodic,Dutch,60,frozen,100
+7 Core Prosodic,Dutch,60,target,100
+7 Core Prosodic,Dutch,61,frozen,5
+7 Core Prosodic,Dutch,61,target,20
+7 Core Prosodic,English,42,frozen,5
+7 Core Prosodic,English,42,target,20
+7 Core Prosodic,English,43,frozen,20
+7 Core Prosodic,English,43,target,30
+7 Core Prosodic,English,44,frozen,10
+7 Core Prosodic,English,44,target,10
+7 Core Prosodic,English,45,frozen,50
+7 Core Prosodic,English,45,target,50
+7 Core Prosodic,English,46,frozen,30
+7 Core Prosodic,English,46,target,30
+7 Core Prosodic,English,47,frozen,10
+7 Core Prosodic,English,47,target,30
+7 Core Prosodic,English,48,frozen,5
+7 Core Prosodic,English,48,target,10
+7 Core Prosodic,English,49,frozen,100
+7 Core Prosodic,English,49,target,100
+7 Core Prosodic,English,50,frozen,10
+7 Core Prosodic,English,50,target,10
+7 Core Prosodic,English,51,frozen,5
+7 Core Prosodic,English,51,target,10
+7 Core Prosodic,English,52,frozen,100
+7 Core Prosodic,English,52,target,50
+7 Core Prosodic,English,53,frozen,100
+7 Core Prosodic,English,53,target,50
+7 Core Prosodic,English,54,frozen,5
+7 Core Prosodic,English,54,target,5
+7 Core Prosodic,English,55,frozen,10
+7 Core Prosodic,English,55,target,30
+7 Core Prosodic,English,56,frozen,5
+7 Core Prosodic,English,56,target,30
+7 Core Prosodic,English,57,frozen,30
+7 Core Prosodic,English,57,target,30
+7 Core Prosodic,English,58,frozen,50
+7 Core Prosodic,English,58,target,100
+7 Core Prosodic,English,59,frozen,50
+7 Core Prosodic,English,59,target,20
+7 Core Prosodic,English,60,frozen,100
+7 Core Prosodic,English,60,target,10
+7 Core Prosodic,English,61,frozen,10
+7 Core Prosodic,English,61,target,30
+7 Core Prosodic,Chinese,42,frozen,100
+7 Core Prosodic,Chinese,42,target,100
+7 Core Prosodic,Chinese,43,frozen,30
+7 Core Prosodic,Chinese,43,target,100
+7 Core Prosodic,Chinese,44,frozen,20
+7 Core Prosodic,Chinese,44,target,50
+7 Core Prosodic,Chinese,45,frozen,30
+7 Core Prosodic,Chinese,45,target,100
+7 Core Prosodic,Chinese,46,frozen,20
+7 Core Prosodic,Chinese,46,target,10
+7 Core Prosodic,Chinese,47,frozen,100
+7 Core Prosodic,Chinese,47,target,100
+7 Core Prosodic,Chinese,48,frozen,10
+7 Core Prosodic,Chinese,48,target,20
+7 Core Prosodic,Chinese,49,frozen,100
+7 Core Prosodic,Chinese,49,target,100
+7 Core Prosodic,Chinese,50,frozen,5
+7 Core Prosodic,Chinese,50,target,5
+7 Core Prosodic,Chinese,51,frozen,50
+7 Core Prosodic,Chinese,51,target,20
+7 Core Prosodic,Chinese,52,frozen,10
+7 Core Prosodic,Chinese,52,target,10
+7 Core Prosodic,Chinese,53,frozen,100
+7 Core Prosodic,Chinese,53,target,10
+7 Core Prosodic,Chinese,54,frozen,20
+7 Core Prosodic,Chinese,54,target,30
+7 Core Prosodic,Chinese,55,frozen,100
+7 Core Prosodic,Chinese,55,target,50
+7 Core Prosodic,Chinese,56,frozen,20
+7 Core Prosodic,Chinese,56,target,10
+7 Core Prosodic,Chinese,57,frozen,10
+7 Core Prosodic,Chinese,57,target,50
+7 Core Prosodic,Chinese,58,frozen,30
+7 Core Prosodic,Chinese,58,target,20
+7 Core Prosodic,Chinese,59,frozen,30
+7 Core Prosodic,Chinese,59,target,10
+7 Core Prosodic,Chinese,60,frozen,20
+7 Core Prosodic,Chinese,60,target,50
+7 Core Prosodic,Chinese,61,frozen,100
+7 Core Prosodic,Chinese,61,target,100
+7 Core Prosodic,German,42,frozen,100
+7 Core Prosodic,German,42,target,10
+7 Core Prosodic,German,43,frozen,5
+7 Core Prosodic,German,43,target,5
+7 Core Prosodic,German,44,frozen,100
+7 Core Prosodic,German,44,target,10
+7 Core Prosodic,German,45,frozen,20
+7 Core Prosodic,German,45,target,20
+7 Core Prosodic,German,46,frozen,5
+7 Core Prosodic,German,46,target,5
+7 Core Prosodic,German,47,frozen,5
+7 Core Prosodic,German,47,target,5
+7 Core Prosodic,German,48,frozen,20
+7 Core Prosodic,German,48,target,100
+7 Core Prosodic,German,49,frozen,5
+7 Core Prosodic,German,49,target,5
+7 Core Prosodic,German,50,frozen,20
+7 Core Prosodic,German,50,target,10
+7 Core Prosodic,German,51,frozen,10
+7 Core Prosodic,German,51,target,100
+7 Core Prosodic,German,52,frozen,100
+7 Core Prosodic,German,52,target,100
+7 Core Prosodic,German,53,frozen,10
+7 Core Prosodic,German,53,target,20
+7 Core Prosodic,German,54,frozen,10
+7 Core Prosodic,German,54,target,100
+7 Core Prosodic,German,55,frozen,50
+7 Core Prosodic,German,55,target,100
+7 Core Prosodic,German,56,frozen,10
+7 Core Prosodic,German,56,target,5
+7 Core Prosodic,German,57,frozen,100
+7 Core Prosodic,German,57,target,10
+7 Core Prosodic,German,58,frozen,30
+7 Core Prosodic,German,58,target,10
+7 Core Prosodic,German,59,frozen,20
+7 Core Prosodic,German,59,target,5
+7 Core Prosodic,German,60,frozen,50
+7 Core Prosodic,German,60,target,20
+7 Core Prosodic,German,61,frozen,30
+7 Core Prosodic,German,61,target,20
+Wav2Vec2-Large MSP,Dutch,42,frozen,100
+Wav2Vec2-Large MSP,Dutch,42,target,30
+Wav2Vec2-Large MSP,Dutch,43,frozen,5
+Wav2Vec2-Large MSP,Dutch,43,target,100
+Wav2Vec2-Large MSP,Dutch,44,frozen,5
+Wav2Vec2-Large MSP,Dutch,44,target,5
+Wav2Vec2-Large MSP,Dutch,45,frozen,20
+Wav2Vec2-Large MSP,Dutch,45,target,100
+Wav2Vec2-Large MSP,Dutch,46,frozen,5
+Wav2Vec2-Large MSP,Dutch,46,target,20
+Wav2Vec2-Large MSP,Dutch,47,frozen,5
+Wav2Vec2-Large MSP,Dutch,47,target,5
+Wav2Vec2-Large MSP,Dutch,48,frozen,20
+Wav2Vec2-Large MSP,Dutch,48,target,10
+Wav2Vec2-Large MSP,Dutch,49,frozen,10
+Wav2Vec2-Large MSP,Dutch,49,target,5
+Wav2Vec2-Large MSP,Dutch,50,frozen,5
+Wav2Vec2-Large MSP,Dutch,50,target,30
+Wav2Vec2-Large MSP,Dutch,51,frozen,30
+Wav2Vec2-Large MSP,Dutch,51,target,5
+Wav2Vec2-Large MSP,Dutch,52,frozen,30
+Wav2Vec2-Large MSP,Dutch,52,target,20
+Wav2Vec2-Large MSP,Dutch,53,frozen,5
+Wav2Vec2-Large MSP,Dutch,53,target,5
+Wav2Vec2-Large MSP,Dutch,54,frozen,50
+Wav2Vec2-Large MSP,Dutch,54,target,50
+Wav2Vec2-Large MSP,Dutch,55,frozen,100
+Wav2Vec2-Large MSP,Dutch,55,target,10
+Wav2Vec2-Large MSP,Dutch,56,frozen,50
+Wav2Vec2-Large MSP,Dutch,56,target,50
+Wav2Vec2-Large MSP,Dutch,57,frozen,20
+Wav2Vec2-Large MSP,Dutch,57,target,30
+Wav2Vec2-Large MSP,Dutch,58,frozen,30
+Wav2Vec2-Large MSP,Dutch,58,target,5
+Wav2Vec2-Large MSP,Dutch,59,frozen,5
+Wav2Vec2-Large MSP,Dutch,59,target,30
+Wav2Vec2-Large MSP,Dutch,60,frozen,5
+Wav2Vec2-Large MSP,Dutch,60,target,20
+Wav2Vec2-Large MSP,Dutch,61,frozen,100
+Wav2Vec2-Large MSP,Dutch,61,target,100
+Wav2Vec2-Large MSP,English,42,frozen,20
+Wav2Vec2-Large MSP,English,42,target,10
+Wav2Vec2-Large MSP,English,43,frozen,30
+Wav2Vec2-Large MSP,English,43,target,30
+Wav2Vec2-Large MSP,English,44,frozen,5
+Wav2Vec2-Large MSP,English,44,target,5
+Wav2Vec2-Large MSP,English,45,frozen,30
+Wav2Vec2-Large MSP,English,45,target,30
+Wav2Vec2-Large MSP,English,46,frozen,10
+Wav2Vec2-Large MSP,English,46,target,5
+Wav2Vec2-Large MSP,English,47,frozen,10
+Wav2Vec2-Large MSP,English,47,target,10
+Wav2Vec2-Large MSP,English,48,frozen,10
+Wav2Vec2-Large MSP,English,48,target,10
+Wav2Vec2-Large MSP,English,49,frozen,5
+Wav2Vec2-Large MSP,English,49,target,5
+Wav2Vec2-Large MSP,English,50,frozen,5
+Wav2Vec2-Large MSP,English,50,target,10
+Wav2Vec2-Large MSP,English,51,frozen,20
+Wav2Vec2-Large MSP,English,51,target,10
+Wav2Vec2-Large MSP,English,52,frozen,50
+Wav2Vec2-Large MSP,English,52,target,5
+Wav2Vec2-Large MSP,English,53,frozen,30
+Wav2Vec2-Large MSP,English,53,target,20
+Wav2Vec2-Large MSP,English,54,frozen,10
+Wav2Vec2-Large MSP,English,54,target,5
+Wav2Vec2-Large MSP,English,55,frozen,50
+Wav2Vec2-Large MSP,English,55,target,30
+Wav2Vec2-Large MSP,English,56,frozen,20
+Wav2Vec2-Large MSP,English,56,target,10
+Wav2Vec2-Large MSP,English,57,frozen,20
+Wav2Vec2-Large MSP,English,57,target,10
+Wav2Vec2-Large MSP,English,58,frozen,50
+Wav2Vec2-Large MSP,English,58,target,30
+Wav2Vec2-Large MSP,English,59,frozen,20
+Wav2Vec2-Large MSP,English,59,target,20
+Wav2Vec2-Large MSP,English,60,frozen,5
+Wav2Vec2-Large MSP,English,60,target,5
+Wav2Vec2-Large MSP,English,61,frozen,5
+Wav2Vec2-Large MSP,English,61,target,20
+Wav2Vec2-Large MSP,Chinese,42,frozen,20
+Wav2Vec2-Large MSP,Chinese,42,target,20
+Wav2Vec2-Large MSP,Chinese,43,frozen,5
+Wav2Vec2-Large MSP,Chinese,43,target,5
+Wav2Vec2-Large MSP,Chinese,44,frozen,10
+Wav2Vec2-Large MSP,Chinese,44,target,5
+Wav2Vec2-Large MSP,Chinese,45,frozen,10
+Wav2Vec2-Large MSP,Chinese,45,target,10
+Wav2Vec2-Large MSP,Chinese,46,frozen,10
+Wav2Vec2-Large MSP,Chinese,46,target,5
+Wav2Vec2-Large MSP,Chinese,47,frozen,5
+Wav2Vec2-Large MSP,Chinese,47,target,5
+Wav2Vec2-Large MSP,Chinese,48,frozen,10
+Wav2Vec2-Large MSP,Chinese,48,target,10
+Wav2Vec2-Large MSP,Chinese,49,frozen,50
+Wav2Vec2-Large MSP,Chinese,49,target,20
+Wav2Vec2-Large MSP,Chinese,50,frozen,10
+Wav2Vec2-Large MSP,Chinese,50,target,10
+Wav2Vec2-Large MSP,Chinese,51,frozen,10
+Wav2Vec2-Large MSP,Chinese,51,target,10
+Wav2Vec2-Large MSP,Chinese,52,frozen,10
+Wav2Vec2-Large MSP,Chinese,52,target,10
+Wav2Vec2-Large MSP,Chinese,53,frozen,10
+Wav2Vec2-Large MSP,Chinese,53,target,20
+Wav2Vec2-Large MSP,Chinese,54,frozen,10
+Wav2Vec2-Large MSP,Chinese,54,target,10
+Wav2Vec2-Large MSP,Chinese,55,frozen,10
+Wav2Vec2-Large MSP,Chinese,55,target,50
+Wav2Vec2-Large MSP,Chinese,56,frozen,10
+Wav2Vec2-Large MSP,Chinese,56,target,20
+Wav2Vec2-Large MSP,Chinese,57,frozen,10
+Wav2Vec2-Large MSP,Chinese,57,target,10
+Wav2Vec2-Large MSP,Chinese,58,frozen,10
+Wav2Vec2-Large MSP,Chinese,58,target,5
+Wav2Vec2-Large MSP,Chinese,59,frozen,10
+Wav2Vec2-Large MSP,Chinese,59,target,10
+Wav2Vec2-Large MSP,Chinese,60,frozen,50
+Wav2Vec2-Large MSP,Chinese,60,target,10
+Wav2Vec2-Large MSP,Chinese,61,frozen,10
+Wav2Vec2-Large MSP,Chinese,61,target,10
+Wav2Vec2-Large MSP,German,42,frozen,20
+Wav2Vec2-Large MSP,German,42,target,10
+Wav2Vec2-Large MSP,German,43,frozen,100
+Wav2Vec2-Large MSP,German,43,target,10
+Wav2Vec2-Large MSP,German,44,frozen,10
+Wav2Vec2-Large MSP,German,44,target,10
+Wav2Vec2-Large MSP,German,45,frozen,20
+Wav2Vec2-Large MSP,German,45,target,30
+Wav2Vec2-Large MSP,German,46,frozen,5
+Wav2Vec2-Large MSP,German,46,target,5
+Wav2Vec2-Large MSP,German,47,frozen,10
+Wav2Vec2-Large MSP,German,47,target,10
+Wav2Vec2-Large MSP,German,48,frozen,50
+Wav2Vec2-Large MSP,German,48,target,5
+Wav2Vec2-Large MSP,German,49,frozen,50
+Wav2Vec2-Large MSP,German,49,target,10
+Wav2Vec2-Large MSP,German,50,frozen,20
+Wav2Vec2-Large MSP,German,50,target,20
+Wav2Vec2-Large MSP,German,51,frozen,10
+Wav2Vec2-Large MSP,German,51,target,5
+Wav2Vec2-Large MSP,German,52,frozen,30
+Wav2Vec2-Large MSP,German,52,target,5
+Wav2Vec2-Large MSP,German,53,frozen,10
+Wav2Vec2-Large MSP,German,53,target,5
+Wav2Vec2-Large MSP,German,54,frozen,20
+Wav2Vec2-Large MSP,German,54,target,30
+Wav2Vec2-Large MSP,German,55,frozen,10
+Wav2Vec2-Large MSP,German,55,target,30
+Wav2Vec2-Large MSP,German,56,frozen,30
+Wav2Vec2-Large MSP,German,56,target,10
+Wav2Vec2-Large MSP,German,57,frozen,20
+Wav2Vec2-Large MSP,German,57,target,50
+Wav2Vec2-Large MSP,German,58,frozen,20
+Wav2Vec2-Large MSP,German,58,target,50
+Wav2Vec2-Large MSP,German,59,frozen,5
+Wav2Vec2-Large MSP,German,59,target,30
+Wav2Vec2-Large MSP,German,60,frozen,5
+Wav2Vec2-Large MSP,German,60,target,10
+Wav2Vec2-Large MSP,German,61,frozen,20
+Wav2Vec2-Large MSP,German,61,target,20
+WavLM-Large MSP,Dutch,42,frozen,20
+WavLM-Large MSP,Dutch,42,target,10
+WavLM-Large MSP,Dutch,43,frozen,100
+WavLM-Large MSP,Dutch,43,target,100
+WavLM-Large MSP,Dutch,44,frozen,10
+WavLM-Large MSP,Dutch,44,target,5
+WavLM-Large MSP,Dutch,45,frozen,100
+WavLM-Large MSP,Dutch,45,target,50
+WavLM-Large MSP,Dutch,46,frozen,20
+WavLM-Large MSP,Dutch,46,target,20
+WavLM-Large MSP,Dutch,47,frozen,50
+WavLM-Large MSP,Dutch,47,target,5
+WavLM-Large MSP,Dutch,48,frozen,50
+WavLM-Large MSP,Dutch,48,target,50
+WavLM-Large MSP,Dutch,49,frozen,5
+WavLM-Large MSP,Dutch,49,target,5
+WavLM-Large MSP,Dutch,50,frozen,50
+WavLM-Large MSP,Dutch,50,target,30
+WavLM-Large MSP,Dutch,51,frozen,50
+WavLM-Large MSP,Dutch,51,target,20
+WavLM-Large MSP,Dutch,52,frozen,10
+WavLM-Large MSP,Dutch,52,target,5
+WavLM-Large MSP,Dutch,53,frozen,30
+WavLM-Large MSP,Dutch,53,target,20
+WavLM-Large MSP,Dutch,54,frozen,20
+WavLM-Large MSP,Dutch,54,target,20
+WavLM-Large MSP,Dutch,55,frozen,10
+WavLM-Large MSP,Dutch,55,target,50
+WavLM-Large MSP,Dutch,56,frozen,50
+WavLM-Large MSP,Dutch,56,target,5
+WavLM-Large MSP,Dutch,57,frozen,50
+WavLM-Large MSP,Dutch,57,target,100
+WavLM-Large MSP,Dutch,58,frozen,50
+WavLM-Large MSP,Dutch,58,target,30
+WavLM-Large MSP,Dutch,59,frozen,5
+WavLM-Large MSP,Dutch,59,target,30
+WavLM-Large MSP,Dutch,60,frozen,5
+WavLM-Large MSP,Dutch,60,target,100
+WavLM-Large MSP,Dutch,61,frozen,10
+WavLM-Large MSP,Dutch,61,target,100
+WavLM-Large MSP,English,42,frozen,100
+WavLM-Large MSP,English,42,target,5
+WavLM-Large MSP,English,43,frozen,20
+WavLM-Large MSP,English,43,target,50
+WavLM-Large MSP,English,44,frozen,5
+WavLM-Large MSP,English,44,target,5
+WavLM-Large MSP,English,45,frozen,10
+WavLM-Large MSP,English,45,target,10
+WavLM-Large MSP,English,46,frozen,10
+WavLM-Large MSP,English,46,target,20
+WavLM-Large MSP,English,47,frozen,30
+WavLM-Large MSP,English,47,target,30
+WavLM-Large MSP,English,48,frozen,10
+WavLM-Large MSP,English,48,target,50
+WavLM-Large MSP,English,49,frozen,20
+WavLM-Large MSP,English,49,target,5
+WavLM-Large MSP,English,50,frozen,10
+WavLM-Large MSP,English,50,target,10
+WavLM-Large MSP,English,51,frozen,10
+WavLM-Large MSP,English,51,target,5
+WavLM-Large MSP,English,52,frozen,30
+WavLM-Large MSP,English,52,target,30
+WavLM-Large MSP,English,53,frozen,30
+WavLM-Large MSP,English,53,target,20
+WavLM-Large MSP,English,54,frozen,20
+WavLM-Large MSP,English,54,target,20
+WavLM-Large MSP,English,55,frozen,30
+WavLM-Large MSP,English,55,target,5
+WavLM-Large MSP,English,56,frozen,20
+WavLM-Large MSP,English,56,target,20
+WavLM-Large MSP,English,57,frozen,5
+WavLM-Large MSP,English,57,target,5
+WavLM-Large MSP,English,58,frozen,50
+WavLM-Large MSP,English,58,target,50
+WavLM-Large MSP,English,59,frozen,20
+WavLM-Large MSP,English,59,target,5
+WavLM-Large MSP,English,60,frozen,20
+WavLM-Large MSP,English,60,target,5
+WavLM-Large MSP,English,61,frozen,5
+WavLM-Large MSP,English,61,target,5
+WavLM-Large MSP,Chinese,42,frozen,10
+WavLM-Large MSP,Chinese,42,target,10
+WavLM-Large MSP,Chinese,43,frozen,5
+WavLM-Large MSP,Chinese,43,target,5
+WavLM-Large MSP,Chinese,44,frozen,10
+WavLM-Large MSP,Chinese,44,target,10
+WavLM-Large MSP,Chinese,45,frozen,5
+WavLM-Large MSP,Chinese,45,target,20
+WavLM-Large MSP,Chinese,46,frozen,10
+WavLM-Large MSP,Chinese,46,target,10
+WavLM-Large MSP,Chinese,47,frozen,10
+WavLM-Large MSP,Chinese,47,target,10
+WavLM-Large MSP,Chinese,48,frozen,10
+WavLM-Large MSP,Chinese,48,target,10
+WavLM-Large MSP,Chinese,49,frozen,10
+WavLM-Large MSP,Chinese,49,target,5
+WavLM-Large MSP,Chinese,50,frozen,5
+WavLM-Large MSP,Chinese,50,target,10
+WavLM-Large MSP,Chinese,51,frozen,10
+WavLM-Large MSP,Chinese,51,target,10
+WavLM-Large MSP,Chinese,52,frozen,10
+WavLM-Large MSP,Chinese,52,target,10
+WavLM-Large MSP,Chinese,53,frozen,10
+WavLM-Large MSP,Chinese,53,target,10
+WavLM-Large MSP,Chinese,54,frozen,5
+WavLM-Large MSP,Chinese,54,target,5
+WavLM-Large MSP,Chinese,55,frozen,10
+WavLM-Large MSP,Chinese,55,target,10
+WavLM-Large MSP,Chinese,56,frozen,5
+WavLM-Large MSP,Chinese,56,target,10
+WavLM-Large MSP,Chinese,57,frozen,5
+WavLM-Large MSP,Chinese,57,target,10
+WavLM-Large MSP,Chinese,58,frozen,10
+WavLM-Large MSP,Chinese,58,target,5
+WavLM-Large MSP,Chinese,59,frozen,10
+WavLM-Large MSP,Chinese,59,target,10
+WavLM-Large MSP,Chinese,60,frozen,10
+WavLM-Large MSP,Chinese,60,target,10
+WavLM-Large MSP,Chinese,61,frozen,10
+WavLM-Large MSP,Chinese,61,target,10
+WavLM-Large MSP,German,42,frozen,20
+WavLM-Large MSP,German,42,target,5
+WavLM-Large MSP,German,43,frozen,50
+WavLM-Large MSP,German,43,target,10
+WavLM-Large MSP,German,44,frozen,10
+WavLM-Large MSP,German,44,target,20
+WavLM-Large MSP,German,45,frozen,5
+WavLM-Large MSP,German,45,target,20
+WavLM-Large MSP,German,46,frozen,20
+WavLM-Large MSP,German,46,target,10
+WavLM-Large MSP,German,47,frozen,10
+WavLM-Large MSP,German,47,target,10
+WavLM-Large MSP,German,48,frozen,30
+WavLM-Large MSP,German,48,target,30
+WavLM-Large MSP,German,49,frozen,5
+WavLM-Large MSP,German,49,target,20
+WavLM-Large MSP,German,50,frozen,10
+WavLM-Large MSP,German,50,target,10
+WavLM-Large MSP,German,51,frozen,5
+WavLM-Large MSP,German,51,target,5
+WavLM-Large MSP,German,52,frozen,5
+WavLM-Large MSP,German,52,target,5
+WavLM-Large MSP,German,53,frozen,5
+WavLM-Large MSP,German,53,target,5
+WavLM-Large MSP,German,54,frozen,30
+WavLM-Large MSP,German,54,target,30
+WavLM-Large MSP,German,55,frozen,5
+WavLM-Large MSP,German,55,target,5
+WavLM-Large MSP,German,56,frozen,20
+WavLM-Large MSP,German,56,target,20
+WavLM-Large MSP,German,57,frozen,50
+WavLM-Large MSP,German,57,target,20
+WavLM-Large MSP,German,58,frozen,5
+WavLM-Large MSP,German,58,target,5
+WavLM-Large MSP,German,59,frozen,20
+WavLM-Large MSP,German,59,target,5
+WavLM-Large MSP,German,60,frozen,10
+WavLM-Large MSP,German,60,target,5
+WavLM-Large MSP,German,61,frozen,50
+WavLM-Large MSP,German,61,target,5

@@ -8,7 +8,7 @@ import pandas as pd
 from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from prosody import CORPORA, OUT_DIR, SR, mp4_to_wav
+from prosody import CORPORA, OUT_DIR, SOURCES, SR, mp4_to_wav
 
 N_MFCC = 13
 COLS = ["mfcc_%02d" % (i + 1) for i in range(N_MFCC)]
@@ -63,4 +63,7 @@ if __name__ == "__main__":
     ap.add_argument("--limit", type=int, default=None)
     a = ap.parse_args()
     for c in (list(CORPORA) if a.corpus == "all" else [a.corpus]):
+        if not SOURCES[c].exists():
+            print("%s: %s not found, skipped" % (c, SOURCES[c]))
+            continue
         run(c, a.limit)

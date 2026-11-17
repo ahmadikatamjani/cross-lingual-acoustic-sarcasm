@@ -1,0 +1,5 @@
+corpus,groups,groups_both,utt_in_both,majority_share,speaker_prior_f1,speaker_prior_sd
+nl,20,20,1.0,0.5025,0.4072,0.0158
+en,27,21,0.9833,0.6286,0.5816,0.0261
+zh,135,128,0.9972,0.5112,0.3653,0.0153
+de,22,14,0.8879,0.6963,0.6105,0.0813

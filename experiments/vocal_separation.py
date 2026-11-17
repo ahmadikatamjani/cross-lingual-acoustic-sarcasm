@@ -117,11 +117,13 @@ def bench():
             Xo, yo, so = Xo[ok], yo[ok], so[ok]
         if not (np.array_equal(yo, ys) and np.array_equal(so, ss)):
             raise SystemExit("%s: labels or speakers differ between the two versions" % tier)
-        so_scores, so_ch = N.nested_cell(Xo.astype(np.float64), yo, so)
-        ss_scores, ss_ch = N.nested_cell(Xs.astype(np.float64), ys, ss)
-        for r in range(len(so_scores)):
-            rows.append(dict(tier=tier, draw=r, original=so_scores[r], separated=ss_scores[r],
-                             budget_original=so_ch[r], budget_separated=ss_ch[r]))
+        so_scores, so_ch, so_dr = N.nested_cell(Xo.astype(np.float64), yo, so)
+        ss_scores, ss_ch, ss_dr = N.nested_cell(Xs.astype(np.float64), ys, ss)
+        if so_dr != ss_dr:
+            raise SystemExit("%s: the two versions kept different draws" % tier)
+        for k, r in enumerate(so_dr):
+            rows.append(dict(tier=tier, draw=r, original=so_scores[k], separated=ss_scores[k],
+                             budget_original=so_ch[k], budget_separated=ss_ch[k]))
         d = (ss_scores - so_scores) * 100
         print("%-16s original %.3f  separated %.3f  %+.2f pp, p = %.3g"
               % (tier, so_scores.mean(), ss_scores.mean(), d.mean(),

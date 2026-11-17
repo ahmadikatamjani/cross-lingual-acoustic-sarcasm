@@ -21,7 +21,7 @@ def usable(y, mask):
 
 def nested_cell(X, y, spk):
     u0 = np.unique(spk)
-    scores, chosen = [], []
+    scores, chosen, drawn = [], [], []
     for r in range(DRAWS):
         seed = 1000 + r
         u = u0.copy()
@@ -49,7 +49,8 @@ def nested_cell(X, y, spk):
         if v == v:
             scores.append(v)
             chosen.append(best)
-    return np.array(scores), chosen
+            drawn.append(r)
+    return np.array(scores), chosen, drawn
 
 
 def main():
@@ -61,7 +62,7 @@ def main():
             if got is None:
                 continue
             X, y, spk = got
-            s, chosen = nested_cell(X.astype(np.float64), y, spk)
+            s, chosen, drawn = nested_cell(X.astype(np.float64), y, spk)
             if not len(s):
                 print("%-9s %-20s no viable draws" % (R.CORPORA[code], tier))
                 continue
@@ -73,7 +74,8 @@ def main():
                              nested_min=round(float(s.min()), 4),
                              nested_max=round(float(s.max()), 4),
                              budgets_chosen=spread, n_draws=len(s),
-                             scores=";".join("%.4f" % v for v in s)))
+                             scores=";".join("%.4f" % v for v in s),
+                             draws=";".join(str(r) for r in drawn)))
     out = R.OUT / "monolingual.csv"
     pd.DataFrame(rows).to_csv(out, index=False)
     print("%.1f min, written %s" % ((time.time() - t0) / 60, out))

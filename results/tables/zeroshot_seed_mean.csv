@@ -1,0 +1,121 @@
+block,source,target,arm,mean_f1,sd_f1,ci_lo,ci_hi,random_baseline,above,one_class,n_seeds
+7 Core Prosodic,Dutch,English,frozen,0.485336,0.004692,0.429927,0.537354,0.4999,False,0.885762,20
+7 Core Prosodic,Dutch,English,target,0.50029,0.003851,0.465003,0.531265,0.4999,False,0.511407,20
+7 Core Prosodic,Dutch,Chinese,frozen,0.33588,0.000617,0.332241,0.340321,0.5001,False,0.997712,20
+7 Core Prosodic,Dutch,Chinese,target,0.585893,0.005041,0.564501,0.605269,0.5001,True,0.506943,20
+7 Core Prosodic,Dutch,German,frozen,0.359281,0.0,0.314892,0.390887,0.4991,False,1.0,20
+7 Core Prosodic,Dutch,German,target,0.453859,0.009569,0.376909,0.534395,0.4991,False,0.514953,20
+7 Core Prosodic,English,Dutch,frozen,0.384863,0.015494,0.346966,0.434765,0.4997,False,0.955675,20
+7 Core Prosodic,English,Dutch,target,0.526616,0.004558,0.495385,0.550794,0.4997,False,0.520186,20
+7 Core Prosodic,English,Chinese,frozen,0.56491,0.026263,0.546601,0.580239,0.5001,True,0.609487,20
+7 Core Prosodic,English,Chinese,target,0.604264,0.006092,0.584699,0.622642,0.5001,True,0.535187,20
+7 Core Prosodic,English,German,frozen,0.522975,0.028502,0.457007,0.577104,0.4991,False,0.753271,20
+7 Core Prosodic,English,German,target,0.596792,0.014004,0.523388,0.653366,0.4991,True,0.520093,20
+7 Core Prosodic,Chinese,Dutch,frozen,0.347875,0.00655,0.338338,0.358061,0.4997,False,0.987408,20
+7 Core Prosodic,Chinese,Dutch,target,0.585648,0.004219,0.558527,0.60687,0.4997,True,0.50655,20
+7 Core Prosodic,Chinese,English,frozen,0.430846,0.011071,0.389677,0.474378,0.4999,False,0.891757,20
+7 Core Prosodic,Chinese,English,target,0.617378,0.005249,0.579486,0.649536,0.4999,True,0.536719,20
+7 Core Prosodic,Chinese,German,frozen,0.403666,0.009898,0.34613,0.478198,0.4991,False,0.939953,20
+7 Core Prosodic,Chinese,German,target,0.566703,0.009408,0.500384,0.635232,0.4991,True,0.534813,20
+7 Core Prosodic,German,Dutch,frozen,0.401604,0.015397,0.36769,0.437418,0.4997,False,0.874647,20
+7 Core Prosodic,German,Dutch,target,0.474522,0.006721,0.436092,0.509845,0.4997,False,0.522276,20
+7 Core Prosodic,German,English,frozen,0.550703,0.02174,0.505766,0.590035,0.4999,True,0.805745,20
+7 Core Prosodic,German,English,target,0.598962,0.007393,0.551855,0.636742,0.4999,True,0.533181,20
+7 Core Prosodic,German,Chinese,frozen,0.580021,0.00757,0.551664,0.60648,0.5001,True,0.689961,20
+7 Core Prosodic,German,Chinese,target,0.603089,0.005441,0.584359,0.621309,0.5001,True,0.534773,20
+Wav2Vec2-Large MSP,Dutch,English,frozen,0.482086,0.013657,0.442641,0.509327,0.4999,False,0.690883,20
+Wav2Vec2-Large MSP,Dutch,English,target,0.489145,0.008558,0.467975,0.512385,0.4999,False,0.551582,20
+Wav2Vec2-Large MSP,Dutch,Chinese,frozen,0.458328,0.024158,0.444475,0.471967,0.5001,False,0.60215,20
+Wav2Vec2-Large MSP,Dutch,Chinese,target,0.48407,0.011635,0.468792,0.498101,0.5001,False,0.54499,20
+Wav2Vec2-Large MSP,Dutch,German,frozen,0.469393,0.017584,0.403931,0.528246,0.4991,False,0.840187,20
+Wav2Vec2-Large MSP,Dutch,German,target,0.508802,0.013494,0.452655,0.566946,0.4991,False,0.514252,20
+Wav2Vec2-Large MSP,English,Dutch,frozen,0.461159,0.029922,0.435496,0.484503,0.4997,False,0.791389,20
+Wav2Vec2-Large MSP,English,Dutch,target,0.5067,0.008234,0.488201,0.524404,0.4997,False,0.541022,20
+Wav2Vec2-Large MSP,English,Chinese,frozen,0.494279,0.034402,0.477512,0.510677,0.5001,False,0.624615,20
+Wav2Vec2-Large MSP,English,Chinese,target,0.53227,0.025228,0.514931,0.548829,0.5001,True,0.545207,20
+Wav2Vec2-Large MSP,English,German,frozen,0.516065,0.030511,0.457406,0.580393,0.4991,False,0.601168,20
+Wav2Vec2-Large MSP,English,German,target,0.498395,0.027172,0.44453,0.561067,0.4991,False,0.541355,20
+Wav2Vec2-Large MSP,Chinese,Dutch,frozen,0.352853,0.017626,0.343592,0.364923,0.4997,False,0.981818,20
+Wav2Vec2-Large MSP,Chinese,Dutch,target,0.544988,0.008868,0.528059,0.561019,0.4997,True,0.539328,20
+Wav2Vec2-Large MSP,Chinese,English,frozen,0.485712,0.037301,0.45068,0.526296,0.4999,False,0.842048,20
+Wav2Vec2-Large MSP,Chinese,English,target,0.635272,0.008581,0.597925,0.660954,0.4999,True,0.517902,20
+Wav2Vec2-Large MSP,Chinese,German,frozen,0.501162,0.034567,0.411609,0.578659,0.4991,False,0.848598,20
+Wav2Vec2-Large MSP,Chinese,German,target,0.626023,0.022815,0.548524,0.690939,0.4991,True,0.559813,20
+Wav2Vec2-Large MSP,German,Dutch,frozen,0.446131,0.020078,0.42431,0.470845,0.4997,False,0.847374,20
+Wav2Vec2-Large MSP,German,Dutch,target,0.523574,0.007342,0.503864,0.542891,0.4997,True,0.602993,20
+Wav2Vec2-Large MSP,German,English,frozen,0.544014,0.008412,0.493912,0.577993,0.4999,False,0.799042,20
+Wav2Vec2-Large MSP,German,English,target,0.605222,0.006761,0.566028,0.633643,0.4999,True,0.599001,20
+Wav2Vec2-Large MSP,German,Chinese,frozen,0.349153,0.004093,0.340771,0.358201,0.5001,False,0.990769,20
+Wav2Vec2-Large MSP,German,Chinese,target,0.634142,0.007245,0.609665,0.657995,0.5001,True,0.609586,20
+WavLM-Large MSP,Dutch,English,frozen,0.489998,0.019444,0.449891,0.523736,0.4999,False,0.659117,20
+WavLM-Large MSP,Dutch,English,target,0.513876,0.01096,0.480216,0.547406,0.4999,False,0.540716,20
+WavLM-Large MSP,Dutch,Chinese,frozen,0.430867,0.037878,0.416567,0.44531,0.5001,False,0.614241,20
+WavLM-Large MSP,Dutch,Chinese,target,0.461229,0.017217,0.445419,0.477767,0.5001,False,0.528442,20
+WavLM-Large MSP,Dutch,German,frozen,0.40419,0.018458,0.348836,0.451315,0.4991,False,0.949766,20
+WavLM-Large MSP,Dutch,German,target,0.508664,0.020344,0.439316,0.589089,0.4991,False,0.551636,20
+WavLM-Large MSP,English,Dutch,frozen,0.412847,0.02466,0.393671,0.433096,0.4997,False,0.89825,20
+WavLM-Large MSP,English,Dutch,target,0.522848,0.007027,0.500858,0.542708,0.4997,True,0.524845,20
+WavLM-Large MSP,English,Chinese,frozen,0.518008,0.023769,0.498411,0.537974,0.5001,False,0.658107,20
+WavLM-Large MSP,English,Chinese,target,0.549725,0.015688,0.529662,0.569073,0.5001,True,0.51712,20
+WavLM-Large MSP,English,German,frozen,0.363179,0.037953,0.31844,0.41233,0.4991,False,0.966121,20
+WavLM-Large MSP,English,German,target,0.608586,0.020579,0.549504,0.668762,0.4991,True,0.53528,20
+WavLM-Large MSP,Chinese,Dutch,frozen,0.484446,0.018839,0.465995,0.499853,0.4997,False,0.582072,20
+WavLM-Large MSP,Chinese,Dutch,target,0.512226,0.008924,0.490627,0.532455,0.4997,False,0.525212,20
+WavLM-Large MSP,Chinese,English,frozen,0.468273,0.037215,0.440229,0.495736,0.4999,False,0.850583,20
+WavLM-Large MSP,Chinese,English,target,0.6107,0.008526,0.579767,0.630591,0.4999,True,0.517027,20
+WavLM-Large MSP,Chinese,German,frozen,0.413611,0.026583,0.368382,0.457374,0.4991,False,0.932243,20
+WavLM-Large MSP,Chinese,German,target,0.536179,0.013232,0.473217,0.602105,0.4991,False,0.518224,20
+WavLM-Large MSP,German,Dutch,frozen,0.499793,0.010954,0.481816,0.517331,0.4997,False,0.655929,20
+WavLM-Large MSP,German,Dutch,target,0.501817,0.004826,0.48512,0.518498,0.4997,False,0.641869,20
+WavLM-Large MSP,German,English,frozen,0.45251,0.022166,0.403149,0.49359,0.4999,False,0.904704,20
+WavLM-Large MSP,German,English,target,0.596515,0.006402,0.560875,0.620321,0.4999,True,0.617111,20
+WavLM-Large MSP,German,Chinese,frozen,0.331787,8.3e-05,0.329959,0.333481,0.5001,False,0.999882,20
+WavLM-Large MSP,German,Chinese,target,0.67093,0.006016,0.647207,0.691806,0.5001,True,0.662899,20
+source-only top-7,Dutch,English,frozen,0.46098,0.003251,0.414942,0.505126,0.4999,False,0.908201,20
+source-only top-7,Dutch,English,target,0.502568,0.007506,0.470038,0.52681,0.4999,False,0.541257,20
+source-only top-7,Dutch,Chinese,frozen,0.3356,0.000402,0.332093,0.339978,0.5001,False,0.998245,20
+source-only top-7,Dutch,Chinese,target,0.619193,0.004026,0.600336,0.637171,0.5001,True,0.533215,20
+source-only top-7,Dutch,German,frozen,0.359281,0.0,0.314892,0.390887,0.4991,False,1.0,20
+source-only top-7,Dutch,German,target,0.483234,0.011067,0.412641,0.56124,0.4991,False,0.545093,20
+source-only top-7,English,Dutch,frozen,0.341385,0.003166,0.332206,0.356322,0.4997,False,0.993845,20
+source-only top-7,English,Dutch,target,0.492922,0.00569,0.457825,0.523629,0.4997,False,0.574337,20
+source-only top-7,English,Chinese,frozen,0.497199,0.038442,0.479453,0.513941,0.5001,False,0.739941,20
+source-only top-7,English,Chinese,target,0.583775,0.006158,0.563784,0.60151,0.5001,True,0.562071,20
+source-only top-7,English,German,frozen,0.458033,0.022068,0.377345,0.532774,0.4991,False,0.891121,20
+source-only top-7,English,German,target,0.618844,0.015634,0.56179,0.673145,0.4991,True,0.540654,20
+source-only top-7,Chinese,Dutch,frozen,0.33754,0.003493,0.333817,0.342031,0.4997,False,0.997007,20
+source-only top-7,Chinese,Dutch,target,0.581085,0.005541,0.551444,0.60673,0.4997,True,0.515867,20
+source-only top-7,Chinese,English,frozen,0.428083,0.011771,0.393056,0.467167,0.4999,False,0.908618,20
+source-only top-7,Chinese,English,target,0.582348,0.005901,0.545344,0.612725,0.4999,True,0.567818,20
+source-only top-7,Chinese,German,frozen,0.456043,0.013998,0.36936,0.553245,0.4991,False,0.902336,20
+source-only top-7,Chinese,German,target,0.566737,0.013064,0.506009,0.630322,0.4991,True,0.583411,20
+source-only top-7,German,Dutch,frozen,0.457798,0.007905,0.429323,0.482612,0.4997,False,0.546527,20
+source-only top-7,German,Dutch,target,0.469798,0.010158,0.434129,0.502187,0.4997,False,0.598758,20
+source-only top-7,German,English,frozen,0.432875,0.013901,0.381742,0.47401,0.4999,False,0.915903,20
+source-only top-7,German,English,target,0.576914,0.00943,0.529525,0.612689,0.4999,True,0.584596,20
+source-only top-7,German,Chinese,frozen,0.542756,0.01043,0.508619,0.573012,0.5001,True,0.753609,20
+source-only top-7,German,Chinese,target,0.585224,0.005051,0.564308,0.60683,0.5001,True,0.526982,20
+all-14,Dutch,English,frozen,0.474071,0.007049,0.419729,0.5246,0.4999,False,0.904496,20
+all-14,Dutch,English,target,0.512497,0.006962,0.47865,0.541327,0.4999,False,0.509659,20
+all-14,Dutch,Chinese,frozen,0.337058,0.000557,0.333125,0.341806,0.5001,False,0.997318,20
+all-14,Dutch,Chinese,target,0.584126,0.008605,0.5632,0.604587,0.5001,True,0.510671,20
+all-14,Dutch,German,frozen,0.359281,0.0,0.314892,0.390887,0.4991,False,1.0,20
+all-14,Dutch,German,target,0.483992,0.019163,0.405304,0.568825,0.4991,False,0.544159,20
+all-14,English,Dutch,frozen,0.367645,0.007763,0.341894,0.40311,0.4997,False,0.969481,20
+all-14,English,Dutch,target,0.524407,0.007335,0.486906,0.557597,0.4997,False,0.526369,20
+all-14,English,Chinese,frozen,0.515101,0.031832,0.492013,0.535312,0.5001,False,0.780316,20
+all-14,English,Chinese,target,0.593126,0.007716,0.574702,0.610434,0.5001,True,0.538974,20
+all-14,English,German,frozen,0.382815,0.031046,0.330163,0.441332,0.4991,False,0.937383,20
+all-14,English,German,target,0.567703,0.015411,0.506791,0.619782,0.4991,True,0.549766,20
+all-14,Chinese,Dutch,frozen,0.379216,0.018592,0.361614,0.398251,0.4997,False,0.956155,20
+all-14,Chinese,Dutch,target,0.571076,0.005712,0.542699,0.593942,0.4997,True,0.534896,20
+all-14,Chinese,English,frozen,0.489743,0.015786,0.450027,0.525802,0.4999,False,0.774105,20
+all-14,Chinese,English,target,0.617487,0.005123,0.577134,0.643391,0.4999,True,0.521774,20
+all-14,Chinese,German,frozen,0.361571,0.008879,0.30904,0.427531,0.4991,False,0.968925,20
+all-14,Chinese,German,target,0.57203,0.014718,0.490224,0.651919,0.4991,False,0.518925,20
+all-14,German,Dutch,frozen,0.441708,0.006307,0.415057,0.466445,0.4997,False,0.57812,20
+all-14,German,Dutch,target,0.478286,0.008933,0.447165,0.507321,0.4997,False,0.559825,20
+all-14,German,English,frozen,0.445305,0.025106,0.395737,0.483259,0.4999,False,0.916278,20
+all-14,German,English,target,0.59764,0.00728,0.545786,0.640648,0.4999,True,0.550291,20
+all-14,German,Chinese,frozen,0.496852,0.014179,0.459486,0.530801,0.5001,False,0.844832,20
+all-14,German,Chinese,target,0.584238,0.008035,0.561305,0.607731,0.5001,True,0.511361,20

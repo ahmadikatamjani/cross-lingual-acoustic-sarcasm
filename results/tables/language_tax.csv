@@ -1,0 +1,13 @@
+feature_set,target,best_source,best_zeroshot,monolingual,tax_pp,mean_zeroshot
+Wav2Vec2-Large MSP,NL,English,0.461159,0.75937,29.8211,0.420048
+Wav2Vec2-Large MSP,EN,German,0.544014,0.66436,12.0346,0.503937
+Wav2Vec2-Large MSP,ZH,English,0.494279,0.708685,21.4406,0.43392
+Wav2Vec2-Large MSP,DE,English,0.516065,0.67934,16.3275,0.49554
+WavLM-Large MSP,NL,German,0.499793,0.75455,25.4757,0.465695
+WavLM-Large MSP,EN,Dutch,0.489998,0.651145,16.1147,0.47026
+WavLM-Large MSP,ZH,English,0.518008,0.72758,20.9572,0.426887
+WavLM-Large MSP,DE,Chinese,0.413611,0.72887,31.5259,0.39366
+7 Core Prosodic,NL,German,0.401604,0.651,24.9396,0.378114
+7 Core Prosodic,EN,German,0.550703,0.61182,6.1117,0.488962
+7 Core Prosodic,ZH,German,0.580021,0.684075,10.4054,0.493604
+7 Core Prosodic,DE,English,0.522976,0.60802,8.5044,0.428641

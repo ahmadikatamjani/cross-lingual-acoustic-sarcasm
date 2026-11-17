@@ -1,6 +1,4 @@
-import glob
 import math
-import os
 import re
 import sys
 from pathlib import Path
@@ -10,30 +8,37 @@ import pandas as pd
 from scipy.stats import wilcoxon
 
 HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parents[0]))
 sys.path.insert(0, str(HERE))
+from config import XLSR_ID, XLSR_REVISION
 import common as R
 
-HF = Path(os.environ.get("HF_HUB_CACHE",
-                         Path.home() / ".cache" / "huggingface" / "hub"))
-CHECKPOINT = {"XLSR-53": "facebook/wav2vec2-large-xlsr-53",
-              "WavLM-Large MSP": "tiantiaf/wavlm-large-msp-podcast-emotion-dim",
-              "Wav2Vec2-Large MSP": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim"}
+CHECKPOINT = {"XLSR-53": (XLSR_ID, XLSR_REVISION),
+              "WavLM-Large MSP": ("tiantiaf/wavlm-large-msp-podcast-emotion-dim", None),
+              "Wav2Vec2-Large MSP": ("audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim", None)}
 PAIRS = [("WavLM-Large MSP", "XLSR-53"), ("Wav2Vec2-Large MSP", "XLSR-53")]
 OUT = R.OUT / "size_matched.csv"
 
 
-def size(tier):
+def shapes(repo, revision):
+    from huggingface_hub import hf_hub_download
+    from huggingface_hub.utils import EntryNotFoundError
+    try:
+        path = hf_hub_download(repo, "model.safetensors", revision=revision)
+    except EntryNotFoundError:
+        import torch
+        path = hf_hub_download(repo, "pytorch_model.bin", revision=revision)
+        state = torch.load(path, map_location="cpu", weights_only=True)
+        return {k: tuple(v.shape) for k, v in state.items()}
     from safetensors import safe_open
-    repo = "models--" + CHECKPOINT[tier].replace("/", "--")
-    hits = glob.glob(str(HF / repo / "snapshots" / "*" / "model.safetensors"))
-    if not hits:
-        raise SystemExit("%s: no model.safetensors under %s" % (tier, HF / repo))
-    with safe_open(hits[0], "pt") as f:
-        keys = list(f.keys())
-        n = sum(math.prod(f.get_slice(k).get_shape()) for k in keys)
-    layers = {int(m.group(1)) for k in keys
-              for m in [re.search(r"layers\.(\d+)\.", k)] if m}
-    return len(layers), n / 1e6
+    with safe_open(path, "pt") as f:
+        return {k: tuple(f.get_slice(k).get_shape()) for k in f.keys()}
+
+
+def size(tier):
+    s = shapes(*CHECKPOINT[tier])
+    layers = {int(m.group(1)) for k in s for m in [re.search(r"layers\.(\d+)\.", k)] if m}
+    return len(layers), sum(math.prod(v) for v in s.values()) / 1e6
 
 
 def same_draws(tiers, code):

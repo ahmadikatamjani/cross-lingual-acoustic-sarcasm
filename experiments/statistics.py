@@ -24,6 +24,15 @@ def scores(cell):
     return np.array([float(x) for x in str(cell).split(";")])
 
 
+def by_draw(row, col="scores"):
+    return dict(zip((int(x) for x in str(row["draws"]).split(";")), scores(row[col])))
+
+
+def gap(a, b, rho):
+    common = sorted(set(a) & set(b))
+    return tests(100 * np.array([a[k] - b[k] for k in common]), rho)
+
+
 def ratios(parts):
     out, te, tr = {}, np.zeros(20), np.zeros(20)
     for c, (_, _, spk) in parts.items():
@@ -86,11 +95,11 @@ def main():
     nb = pd.read_csv(T / "monolingual.csv")
 
     def mono(corp, tier):
-        return scores(nb[(nb.corpus == corp) & (nb.tier == tier)].scores.iloc[0])
+        return by_draw(nb[(nb.corpus == corp) & (nb.tier == tier)].iloc[0])
 
     claims += family("size_matched", [
         dict(comparison="WavLM-Large MSP - XLSR-53", corpus=c,
-             **tests(100 * (mono(c, "WavLM-Large MSP") - mono(c, "XLSR-53")), rho[c]))
+             **gap(mono(c, "WavLM-Large MSP"), mono(c, "XLSR-53"), rho[c]))
         for c in CODES.values()])
     jv = pd.read_csv(T / "joint_vs_specialists.csv")
     for tier, key in (("WavLM-Large MSP", "pooling_wavlm"), ("7 Core Prosodic", "pooling_prosodic")):
@@ -105,15 +114,15 @@ def main():
         claims += family("perlang_" + tier, [dict(comparison="per-language - pooled scaler, " + tier,
                                                    corpus="pooled", higher=int((d > 0).sum()),
                                                    **tests(d, rho["pooled"]))])
-    db = pd.read_csv(T / "dutch_benchmarks.csv").set_index("feature_set").scores
+    db = pd.read_csv(T / "dutch_benchmarks.csv").set_index("feature_set")
     five = ["Wav2Vec2-Large MSP", "WavLM-Large MSP", "emotion2vec\\_base", "7 Core Prosodic", "eGeMAPS"]
     claims += family("dutch_pairwise", [
         dict(comparison="%s - %s" % (a, b), corpus="Dutch",
-             **tests(100 * (scores(db[a]) - scores(db[b])), rho["Dutch"]))
+             **gap(by_draw(db.loc[a]), by_draw(db.loc[b]), rho["Dutch"]))
         for i, a in enumerate(five) for b in five[i + 1:]])
     claims += family("xlsr_vs_prosody", [
         dict(comparison="XLSR-53 - 7 Core Prosodic", corpus=c,
-             **tests(100 * (mono(c, "XLSR-53") - mono(c, "7 Core Prosodic")), rho[c]))
+             **gap(mono(c, "XLSR-53"), mono(c, "7 Core Prosodic"), rho[c]))
         for c in CODES.values()])
     ab = pd.read_csv(T / "contrastive_ablation.csv")
     head = []

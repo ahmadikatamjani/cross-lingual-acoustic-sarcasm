@@ -1,0 +1,5 @@
+Corpus,N,Positive rate,Majority-class macro-F1,Stratified-random macro-F1,Random draws,Random draw sd
+Dutch,1771,0.502,0.3342,0.4997,10000,0.0119
+MUStARD++,1201,0.5,0.3335,0.4999,10000,0.0147
+MCSD,2535,0.497,0.3348,0.5001,10000,0.0099
+MuSaG,214,0.561,0.3593,0.4991,10000,0.0341

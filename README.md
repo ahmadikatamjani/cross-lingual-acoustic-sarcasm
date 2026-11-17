@@ -6,7 +6,16 @@ The scripts extract prosodic descriptors, openSMILE feature sets and self-superv
 
 ## Data
 
-The corpora are not included. MUStARD++, MuSaG and MCSD are available from their authors. The Dutch corpus is not publicly available. Place the corpora as follows:
+The corpora are not included.
+
+| Corpus | Language | Source | Utterances | Speakers or units |
+|---|---|---|---|---|
+| Jansen and Chen (2020) | Dutch | not publicly available | 1,771 | 20 speakers |
+| MUStARD++ (Ray et al., 2022) | English | from its authors | 1,201 | 27 speakers |
+| MCSD v1 (Gao et al., 2025) | Mandarin | DataverseNL, doi:10.34894/A0NLTQ | 2,625 of 2,705 clips, 2,535 with all seven prosodic features | 135 speakers |
+| MuSaG (Scott et al., 2025) | German | metadata from its authors, audio from YouTube | 214 | 22 source videos |
+
+The counts are those after feature extraction in the paper; a corpus prepared later may differ where source videos have changed. Place the corpora as follows:
 
 ```
 data/corpora/dutch/dataset.csv
@@ -20,7 +29,22 @@ data/corpora/musag/dataset.json
 data/corpora/musag/segments/*.wav
 ```
 
-All paths are set in `config.py`. Extracted features are written to `data/features/`, result tables to `results/tables/` and figures to `results/figures/`.
+All paths are set in `config.py`. Extracted features are written to `data/features/`, result tables to `results/tables/` and figures to `results/figures/`. `results/tables/` already holds the tables behind every number in the paper, computed on all four corpora; rerunning a script overwrites its table.
+
+### Preparing the German and Mandarin audio
+
+MuSaG and MCSD give YouTube sources and timestamps rather than audio, so the clips are cut from the source videos. `ffmpeg` and `yt-dlp` must be on the path.
+
+```
+python prepare/musag.py
+python prepare/mcsd.py
+```
+
+`prepare/musag.py` downloads the 22 videos listed in `dataset.csv` and cuts the 214 segments as 16 kHz mono WAV. `prepare/mcsd.py` downloads the episodes listed in `prepare/mcsd_episodes.csv`, which gives the YouTube video of each MCSD item we could obtain, and cuts the clips listed in `MCSD_v1.xlsx`. Of the 80 clips we could not cut, 24 belong to `tkxdh_s4_ep7_1` and have no start or end time in `MCSD_v1.xlsx`, and 56 belong to the 31 items whose episodes we could not obtain: `tkxdh_s4_ep10_3` to `tkxdh_s4_ep10_30`, `tkxdh_s5_ep5_1`, `tkxdh_s5_ep5_2` and `tkxdh_s5_ep7_2`.
+
+### Without the Dutch corpus
+
+Every extraction script takes `--corpus` and skips a corpus whose files are missing. The cross-lingual experiments, the statistics and the scripts named `dutch_*` need all four corpora. With the three public corpora, `experiments/baselines.py`, `separability.py`, `monolingual.py` and `budget_curves.py` run on English, Mandarin and German.
 
 ## Setup
 
@@ -82,6 +106,8 @@ python figures/pipeline.py
 python figures/effect_heatmap.py
 python figures/results.py
 ```
+
+Each score list in `monolingual.csv` and `dutch_benchmarks.csv` comes with the draws it belongs to, and paired tests join two lists on their common draws.
 
 ## Results and the scripts that produce them
 

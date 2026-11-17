@@ -1,0 +1,11 @@
+tier_a,tier_b,mean_a,mean_b,delta_pp,wilcoxon_p,n_draws,holm_p
+Wav2Vec2-Large MSP,WavLM-Large MSP,0.759906,0.754555,0.535,0.314389,20,0.314389
+Wav2Vec2-Large MSP,emotion2vec\_base,0.759906,0.722872,3.703,0.000105,20,0.000315
+Wav2Vec2-Large MSP,7 Core Prosodic,0.759906,0.651004,10.89,2e-06,20,1.9e-05
+Wav2Vec2-Large MSP,eGeMAPS,0.759906,0.596246,16.366,2e-06,20,1.9e-05
+WavLM-Large MSP,emotion2vec\_base,0.754555,0.722872,3.168,2e-06,20,1.9e-05
+WavLM-Large MSP,7 Core Prosodic,0.754555,0.651004,10.355,2e-06,20,1.9e-05
+WavLM-Large MSP,eGeMAPS,0.754555,0.596246,15.831,2e-06,20,1.9e-05
+emotion2vec\_base,7 Core Prosodic,0.722872,0.651004,7.187,2e-06,20,1.9e-05
+emotion2vec\_base,eGeMAPS,0.722872,0.596246,12.663,2e-06,20,1.9e-05
+7 Core Prosodic,eGeMAPS,0.651004,0.596246,5.476,0.001986,20,0.003971

@@ -20,6 +20,12 @@ MUSAG_DIR = CORPUS_DIR / "musag"
 PROSODY_DIR = FEATURE_DIR / "prosody"
 DUTCH_FEATURE_DIR = FEATURE_DIR / "dutch"
 
+SOURCES = {"nl": DUTCH_METADATA, "en": MUSTARDPP_DIR / "mustard++_text.csv",
+           "zh": MCSD_DIR / "Files" / "MCSD_v1.xlsx", "de": MUSAG_DIR / "dataset.json"}
+
+XLSR_ID = "facebook/wav2vec2-large-xlsr-53"
+XLSR_REVISION = "c3f9d884181a224a6ac87bf8885c84d1cff3384f"
+
 CORPORA = {"nl": "Dutch", "en": "English", "zh": "Mandarin", "de": "German"}
 
 PAPER_7 = ["duration_ms", "energy_slope", "pitch_slope", "intensity_mean_db",

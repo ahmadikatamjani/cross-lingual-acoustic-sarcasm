@@ -14,14 +14,13 @@ from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from config import (DUTCH_AUDIO, DUTCH_FEATURE_DIR, DUTCH_METADATA, FEATURE_DIR, MCSD_DIR,
-                    MUSAG_DIR, MUSTARDPP_DIR)
+                    MUSAG_DIR, MUSTARDPP_DIR, SOURCES, XLSR_ID, XLSR_REVISION)
 
 SR = 16000
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 STEM = {"nl": "dutch", "en": "mustardpp", "zh": "mcsd", "de": "musag"}
 WAV2VEC2_MSP = "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim"
 WAVLM_MSP = "tiantiaf/wavlm-large-msp-podcast-emotion-dim"
-XLSR_ID, XLSR_REVISION = "facebook/wav2vec2-large-xlsr-53", "c3f9d884181a224a6ac87bf8885c84d1cff3384f"
 
 
 def targets(code):
@@ -235,4 +234,7 @@ if __name__ == "__main__":
     a = ap.parse_args()
     for n in (names if a.features == "all" else [a.features]):
         for c in (list(STEM) if a.corpus == "all" else [a.corpus]):
+            if not SOURCES[c].exists():
+                print("%s: %s not found, skipped" % (c, SOURCES[c]))
+                continue
             run(n, c)

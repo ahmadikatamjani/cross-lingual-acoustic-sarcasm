@@ -1,0 +1,169 @@
+tier,corpus,kernel,C,gamma,mean_f1,sd_f1,n
+WavLM-Large MSP,Dutch,rbf,1.0,scale,0.75325,0.049115,20
+WavLM-Large MSP,Dutch,rbf,0.01,0.0001,0.333457,0.000968,20
+WavLM-Large MSP,Dutch,rbf,0.01,0.001,0.333457,0.000968,20
+WavLM-Large MSP,Dutch,rbf,0.01,0.01,0.333457,0.000968,20
+WavLM-Large MSP,Dutch,rbf,0.01,0.1,0.748442,0.050189,20
+WavLM-Large MSP,Dutch,rbf,0.1,0.0001,0.350152,0.076712,20
+WavLM-Large MSP,Dutch,rbf,0.1,0.001,0.350152,0.076712,20
+WavLM-Large MSP,Dutch,rbf,0.1,0.01,0.749069,0.048979,20
+WavLM-Large MSP,Dutch,rbf,0.1,0.1,0.755044,0.04897,20
+WavLM-Large MSP,Dutch,rbf,1.0,0.0001,0.33333,0.000976,20
+WavLM-Large MSP,Dutch,rbf,1.0,0.001,0.750573,0.049243,20
+WavLM-Large MSP,Dutch,rbf,1.0,0.01,0.755188,0.049055,20
+WavLM-Large MSP,Dutch,rbf,1.0,0.1,0.754726,0.049681,20
+WavLM-Large MSP,Dutch,rbf,10.0,0.0001,0.75047,0.049674,20
+WavLM-Large MSP,Dutch,rbf,10.0,0.001,0.755188,0.049055,20
+WavLM-Large MSP,Dutch,rbf,10.0,0.01,0.754722,0.04927,20
+WavLM-Large MSP,Dutch,rbf,10.0,0.1,0.752974,0.049054,20
+WavLM-Large MSP,Dutch,linear,0.01,scale,0.755196,0.048722,20
+WavLM-Large MSP,Dutch,linear,0.1,scale,0.755026,0.049159,20
+WavLM-Large MSP,Dutch,linear,1.0,scale,0.753526,0.049639,20
+WavLM-Large MSP,Dutch,linear,10.0,scale,0.752462,0.049176,20
+WavLM-Large MSP,English,rbf,1.0,scale,0.658678,0.044305,20
+WavLM-Large MSP,English,rbf,0.01,0.0001,0.345432,0.038422,20
+WavLM-Large MSP,English,rbf,0.01,0.001,0.345432,0.038422,20
+WavLM-Large MSP,English,rbf,0.01,0.01,0.345432,0.038422,20
+WavLM-Large MSP,English,rbf,0.01,0.1,0.479992,0.115901,20
+WavLM-Large MSP,English,rbf,0.1,0.0001,0.323123,0.042294,20
+WavLM-Large MSP,English,rbf,0.1,0.001,0.323123,0.042294,20
+WavLM-Large MSP,English,rbf,0.1,0.01,0.501974,0.13604,20
+WavLM-Large MSP,English,rbf,0.1,0.1,0.656557,0.04761,20
+WavLM-Large MSP,English,rbf,1.0,0.0001,0.339763,0.041156,20
+WavLM-Large MSP,English,rbf,1.0,0.001,0.502717,0.12614,20
+WavLM-Large MSP,English,rbf,1.0,0.01,0.656459,0.047664,20
+WavLM-Large MSP,English,rbf,1.0,0.1,0.658892,0.044748,20
+WavLM-Large MSP,English,rbf,10.0,0.0001,0.520209,0.124105,20
+WavLM-Large MSP,English,rbf,10.0,0.001,0.656583,0.047688,20
+WavLM-Large MSP,English,rbf,10.0,0.01,0.658327,0.046257,20
+WavLM-Large MSP,English,rbf,10.0,0.1,0.657442,0.043939,20
+WavLM-Large MSP,English,linear,0.01,scale,0.655989,0.046657,20
+WavLM-Large MSP,English,linear,0.1,scale,0.65792,0.046269,20
+WavLM-Large MSP,English,linear,1.0,scale,0.658015,0.045849,20
+WavLM-Large MSP,English,linear,10.0,scale,0.659826,0.044858,20
+WavLM-Large MSP,Mandarin,rbf,1.0,scale,0.712119,0.020725,20
+WavLM-Large MSP,Mandarin,rbf,0.01,0.0001,0.333357,0.002516,20
+WavLM-Large MSP,Mandarin,rbf,0.01,0.001,0.333357,0.002516,20
+WavLM-Large MSP,Mandarin,rbf,0.01,0.01,0.333357,0.002516,20
+WavLM-Large MSP,Mandarin,rbf,0.01,0.1,0.710888,0.022126,20
+WavLM-Large MSP,Mandarin,rbf,0.1,0.0001,0.333923,0.002431,20
+WavLM-Large MSP,Mandarin,rbf,0.1,0.001,0.333923,0.002431,20
+WavLM-Large MSP,Mandarin,rbf,0.1,0.01,0.708696,0.025142,20
+WavLM-Large MSP,Mandarin,rbf,0.1,0.1,0.711646,0.021226,20
+WavLM-Large MSP,Mandarin,rbf,1.0,0.0001,0.333194,0.002508,20
+WavLM-Large MSP,Mandarin,rbf,1.0,0.001,0.710681,0.021414,20
+WavLM-Large MSP,Mandarin,rbf,1.0,0.01,0.711831,0.02133,20
+WavLM-Large MSP,Mandarin,rbf,1.0,0.1,0.711494,0.020638,20
+WavLM-Large MSP,Mandarin,rbf,10.0,0.0001,0.708776,0.024574,20
+WavLM-Large MSP,Mandarin,rbf,10.0,0.001,0.711831,0.02133,20
+WavLM-Large MSP,Mandarin,rbf,10.0,0.01,0.711389,0.020785,20
+WavLM-Large MSP,Mandarin,rbf,10.0,0.1,0.712276,0.020992,20
+WavLM-Large MSP,Mandarin,linear,0.01,scale,0.711969,0.021271,20
+WavLM-Large MSP,Mandarin,linear,0.1,scale,0.711659,0.021658,20
+WavLM-Large MSP,Mandarin,linear,1.0,scale,0.710948,0.021027,20
+WavLM-Large MSP,Mandarin,linear,10.0,scale,0.709187,0.022148,20
+WavLM-Large MSP,German,rbf,1.0,scale,0.73082,0.088436,20
+WavLM-Large MSP,German,rbf,0.01,0.0001,0.34012,0.044477,20
+WavLM-Large MSP,German,rbf,0.01,0.001,0.34012,0.044477,20
+WavLM-Large MSP,German,rbf,0.01,0.01,0.34012,0.044477,20
+WavLM-Large MSP,German,rbf,0.01,0.1,0.34012,0.044477,20
+WavLM-Large MSP,German,rbf,0.1,0.0001,0.320227,0.046265,20
+WavLM-Large MSP,German,rbf,0.1,0.001,0.320227,0.046265,20
+WavLM-Large MSP,German,rbf,0.1,0.01,0.320227,0.046265,20
+WavLM-Large MSP,German,rbf,0.1,0.1,0.70814,0.078261,20
+WavLM-Large MSP,German,rbf,1.0,0.0001,0.368833,0.133862,20
+WavLM-Large MSP,German,rbf,1.0,0.001,0.386743,0.156957,20
+WavLM-Large MSP,German,rbf,1.0,0.01,0.717635,0.085637,20
+WavLM-Large MSP,German,rbf,1.0,0.1,0.733825,0.087976,20
+WavLM-Large MSP,German,rbf,10.0,0.0001,0.33629,0.045645,20
+WavLM-Large MSP,German,rbf,10.0,0.001,0.719942,0.081361,20
+WavLM-Large MSP,German,rbf,10.0,0.01,0.733825,0.087976,20
+WavLM-Large MSP,German,rbf,10.0,0.1,0.732394,0.08673,20
+WavLM-Large MSP,German,linear,0.01,scale,0.352383,0.043849,20
+WavLM-Large MSP,German,linear,0.1,scale,0.735838,0.086467,20
+WavLM-Large MSP,German,linear,1.0,scale,0.734327,0.084778,20
+WavLM-Large MSP,German,linear,10.0,scale,0.732394,0.08673,20
+7 Core Prosodic,Dutch,rbf,1.0,scale,0.654231,0.062099,20
+7 Core Prosodic,Dutch,rbf,0.01,0.0001,0.333457,0.000968,20
+7 Core Prosodic,Dutch,rbf,0.01,0.001,0.333457,0.000968,20
+7 Core Prosodic,Dutch,rbf,0.01,0.01,0.333457,0.000968,20
+7 Core Prosodic,Dutch,rbf,0.01,0.1,0.333457,0.000968,20
+7 Core Prosodic,Dutch,rbf,0.1,0.0001,0.345068,0.053976,20
+7 Core Prosodic,Dutch,rbf,0.1,0.001,0.345068,0.053976,20
+7 Core Prosodic,Dutch,rbf,0.1,0.01,0.345068,0.053976,20
+7 Core Prosodic,Dutch,rbf,0.1,0.1,0.345068,0.053976,20
+7 Core Prosodic,Dutch,rbf,1.0,0.0001,0.33333,0.000976,20
+7 Core Prosodic,Dutch,rbf,1.0,0.001,0.33333,0.000976,20
+7 Core Prosodic,Dutch,rbf,1.0,0.01,0.33333,0.000976,20
+7 Core Prosodic,Dutch,rbf,1.0,0.1,0.655967,0.062394,20
+7 Core Prosodic,Dutch,rbf,10.0,0.0001,0.333519,0.000956,20
+7 Core Prosodic,Dutch,rbf,10.0,0.001,0.333519,0.000956,20
+7 Core Prosodic,Dutch,rbf,10.0,0.01,0.655956,0.062197,20
+7 Core Prosodic,Dutch,rbf,10.0,0.1,0.653247,0.061366,20
+7 Core Prosodic,Dutch,linear,0.01,scale,0.333457,0.000968,20
+7 Core Prosodic,Dutch,linear,0.1,scale,0.653583,0.061584,20
+7 Core Prosodic,Dutch,linear,1.0,scale,0.65488,0.062175,20
+7 Core Prosodic,Dutch,linear,10.0,scale,0.653874,0.062475,20
+7 Core Prosodic,English,rbf,1.0,scale,0.611082,0.038247,20
+7 Core Prosodic,English,rbf,0.01,0.0001,0.345432,0.038422,20
+7 Core Prosodic,English,rbf,0.01,0.001,0.345432,0.038422,20
+7 Core Prosodic,English,rbf,0.01,0.01,0.345432,0.038422,20
+7 Core Prosodic,English,rbf,0.01,0.1,0.345432,0.038422,20
+7 Core Prosodic,English,rbf,0.1,0.0001,0.323123,0.042294,20
+7 Core Prosodic,English,rbf,0.1,0.001,0.323123,0.042294,20
+7 Core Prosodic,English,rbf,0.1,0.01,0.323123,0.042294,20
+7 Core Prosodic,English,rbf,0.1,0.1,0.323123,0.042294,20
+7 Core Prosodic,English,rbf,1.0,0.0001,0.339763,0.041156,20
+7 Core Prosodic,English,rbf,1.0,0.001,0.339763,0.041156,20
+7 Core Prosodic,English,rbf,1.0,0.01,0.339763,0.041156,20
+7 Core Prosodic,English,rbf,1.0,0.1,0.611173,0.034978,20
+7 Core Prosodic,English,rbf,10.0,0.0001,0.33762,0.042218,20
+7 Core Prosodic,English,rbf,10.0,0.001,0.33762,0.042218,20
+7 Core Prosodic,English,rbf,10.0,0.01,0.61186,0.034855,20
+7 Core Prosodic,English,rbf,10.0,0.1,0.610279,0.038755,20
+7 Core Prosodic,English,linear,0.01,scale,0.345432,0.038422,20
+7 Core Prosodic,English,linear,0.1,scale,0.610956,0.033322,20
+7 Core Prosodic,English,linear,1.0,scale,0.611134,0.037968,20
+7 Core Prosodic,English,linear,10.0,scale,0.61323,0.03766,20
+7 Core Prosodic,Mandarin,rbf,1.0,scale,0.680621,0.019918,20
+7 Core Prosodic,Mandarin,rbf,0.01,0.0001,0.333357,0.002516,20
+7 Core Prosodic,Mandarin,rbf,0.01,0.001,0.333357,0.002516,20
+7 Core Prosodic,Mandarin,rbf,0.01,0.01,0.333357,0.002516,20
+7 Core Prosodic,Mandarin,rbf,0.01,0.1,0.333357,0.002516,20
+7 Core Prosodic,Mandarin,rbf,0.1,0.0001,0.333923,0.002431,20
+7 Core Prosodic,Mandarin,rbf,0.1,0.001,0.333923,0.002431,20
+7 Core Prosodic,Mandarin,rbf,0.1,0.01,0.333923,0.002431,20
+7 Core Prosodic,Mandarin,rbf,0.1,0.1,0.371135,0.055901,20
+7 Core Prosodic,Mandarin,rbf,1.0,0.0001,0.333194,0.002508,20
+7 Core Prosodic,Mandarin,rbf,1.0,0.001,0.333194,0.002508,20
+7 Core Prosodic,Mandarin,rbf,1.0,0.01,0.36903,0.058354,20
+7 Core Prosodic,Mandarin,rbf,1.0,0.1,0.680642,0.018427,20
+7 Core Prosodic,Mandarin,rbf,10.0,0.0001,0.333685,0.002484,20
+7 Core Prosodic,Mandarin,rbf,10.0,0.001,0.370089,0.05792,20
+7 Core Prosodic,Mandarin,rbf,10.0,0.01,0.680262,0.018202,20
+7 Core Prosodic,Mandarin,rbf,10.0,0.1,0.681174,0.020667,20
+7 Core Prosodic,Mandarin,linear,0.01,scale,0.333357,0.002516,20
+7 Core Prosodic,Mandarin,linear,0.1,scale,0.679009,0.01876,20
+7 Core Prosodic,Mandarin,linear,1.0,scale,0.680788,0.020195,20
+7 Core Prosodic,Mandarin,linear,10.0,scale,0.681595,0.017861,20
+7 Core Prosodic,German,rbf,1.0,scale,0.618712,0.082991,20
+7 Core Prosodic,German,rbf,0.01,0.0001,0.34012,0.044477,20
+7 Core Prosodic,German,rbf,0.01,0.001,0.34012,0.044477,20
+7 Core Prosodic,German,rbf,0.01,0.01,0.34012,0.044477,20
+7 Core Prosodic,German,rbf,0.01,0.1,0.34012,0.044477,20
+7 Core Prosodic,German,rbf,0.1,0.0001,0.320227,0.046265,20
+7 Core Prosodic,German,rbf,0.1,0.001,0.320227,0.046265,20
+7 Core Prosodic,German,rbf,0.1,0.01,0.320227,0.046265,20
+7 Core Prosodic,German,rbf,0.1,0.1,0.320227,0.046265,20
+7 Core Prosodic,German,rbf,1.0,0.0001,0.335367,0.074361,20
+7 Core Prosodic,German,rbf,1.0,0.001,0.363209,0.102708,20
+7 Core Prosodic,German,rbf,1.0,0.01,0.351562,0.087744,20
+7 Core Prosodic,German,rbf,1.0,0.1,0.340041,0.073854,20
+7 Core Prosodic,German,rbf,10.0,0.0001,0.33629,0.045645,20
+7 Core Prosodic,German,rbf,10.0,0.001,0.33629,0.045645,20
+7 Core Prosodic,German,rbf,10.0,0.01,0.33629,0.045645,20
+7 Core Prosodic,German,rbf,10.0,0.1,0.622442,0.083729,20
+7 Core Prosodic,German,linear,0.01,scale,0.34012,0.044477,20
+7 Core Prosodic,German,linear,0.1,scale,0.320227,0.046265,20
+7 Core Prosodic,German,linear,1.0,scale,0.603956,0.081144,20
+7 Core Prosodic,German,linear,10.0,scale,0.616446,0.07212,20

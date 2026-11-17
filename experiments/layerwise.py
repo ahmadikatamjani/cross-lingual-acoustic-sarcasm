@@ -12,7 +12,8 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parents[0]))
 sys.path.insert(0, str(HERE))
-from config import DUTCH_AUDIO, FEATURE_DIR, MCSD_DIR, MUSAG_DIR, MUSTARDPP_DIR, TABLE_DIR
+from config import (DUTCH_AUDIO, FEATURE_DIR, MCSD_DIR, MUSAG_DIR, MUSTARDPP_DIR, TABLE_DIR,
+                    XLSR_ID, XLSR_REVISION)
 import common as R
 
 EMB = FEATURE_DIR / "layerwise"
@@ -23,7 +24,6 @@ ENCODERS = [("XLSR-53", "xlsr", "xlsr"),
             ("WavLM-Large MSP", "wavlm_msp", "wavlm_msp")]
 E2V = ("emotion2vec", "emotion2vec", "emotion2vec")
 ALL = ENCODERS + [E2V]
-XLSR_ID, XLSR_REVISION = "facebook/wav2vec2-large-xlsr-53", "c3f9d884181a224a6ac87bf8885c84d1cff3384f"
 DRAWS, MIN_TEST = 20, 15
 TOL = 1e-2
 

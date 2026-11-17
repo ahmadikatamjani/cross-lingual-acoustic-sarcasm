@@ -71,7 +71,7 @@ def main(repeats):
             print("%-22s  [unavailable]" % name)
             continue
         X, y, spk = got
-        sup, raw, picked = [], [], []
+        sup, raw, picked, drawn = [], [], [], []
         g_acc = {s: [] for s in ("Raw", "SimCLR", "SupCon")}
         for r in range(repeats):
             tr, te, a, b = split(spk, r)
@@ -95,6 +95,7 @@ def main(repeats):
             Ztr, Zte = U.project(m, Xtr, Xte)
             sup.append(U.svm_f1(Ztr, ytr, Zte, yte)[1])
             raw.append(U.svm_f1(Xtr, ytr, Xte, yte)[1])
+            drawn.append(r)
 
             if name in U.GEOMETRY:
                 lp = LogisticRegression(class_weight="balanced", max_iter=1000)
@@ -111,7 +112,7 @@ def main(repeats):
         if not sup:
             continue
         S, R = np.array(sup), np.array(raw)
-        per_draw[name] = S
+        per_draw[name] = dict(zip(drawn, S))
         print("%-22s %6d %8d  %.3f +/- %.3f  %.3f +/- %.3f %+9.2f"
               % (name, X.shape[1] if not pca_dim else pca_dim,
                  Counter(picked).most_common(1)[0][0],
@@ -128,7 +129,8 @@ def main(repeats):
             delta_pp=round(float((S.mean() - R.mean()) * 100), 3),
             n_draws=len(S),
             scores=";".join("%.6f" % v for v in S),
-            raw_scores=";".join("%.6f" % v for v in R)))
+            raw_scores=";".join("%.6f" % v for v in R),
+            draws=";".join(str(r) for r in drawn)))
 
         for space, vals in g_acc.items():
             if not vals:
@@ -147,18 +149,19 @@ def main(repeats):
     have = [t for t in SIG_TIERS if t in per_draw]
     pairs = [(a, b) for i, a in enumerate(have) for b in have[i + 1:]]
     for a, b in pairs:
-        A, B = per_draw[a], per_draw[b]
-        n = min(len(A), len(B))
-        d = A[:n] - B[:n]
+        common = sorted(set(per_draw[a]) & set(per_draw[b]))
+        A = np.array([per_draw[a][k] for k in common])
+        B = np.array([per_draw[b][k] for k in common])
+        d = A - B
         try:
-            p = float(wilcoxon(A[:n], B[:n]).pvalue) if np.any(d != 0) else 1.0
+            p = float(wilcoxon(A, B).pvalue) if np.any(d != 0) else 1.0
         except ValueError:
             p = 1.0
         sig.append(dict(tier_a=a, tier_b=b,
-                        mean_a=round(float(A[:n].mean()), 6),
-                        mean_b=round(float(B[:n].mean()), 6),
+                        mean_a=round(float(A.mean()), 6),
+                        mean_b=round(float(B.mean()), 6),
                         delta_pp=round(float(d.mean() * 100), 3),
-                        wilcoxon_p=p, n_draws=n))
+                        wilcoxon_p=p, n_draws=len(common)))
     if sig:
         ps = np.array([s["wilcoxon_p"] for s in sig])
         for s, h in zip(sig, holm(ps)):

@@ -1,0 +1,169 @@
+corpus,tier,epochs,test_f1,train_f1,test_sd,is_peak,n_draws
+Dutch,7 Core Prosodic,5,0.6476,0.6792,0.0592,False,20
+Dutch,7 Core Prosodic,10,0.6507,0.68,0.0616,False,20
+Dutch,7 Core Prosodic,20,0.6537,0.6845,0.062,False,20
+Dutch,7 Core Prosodic,30,0.6542,0.687,0.0621,False,20
+Dutch,7 Core Prosodic,50,0.6556,0.6909,0.0621,False,20
+Dutch,7 Core Prosodic,100,0.6561,0.7102,0.0583,True,20
+Dutch,eGeMAPS,5,0.6168,0.7001,0.0476,False,20
+Dutch,eGeMAPS,10,0.6241,0.7196,0.0513,True,20
+Dutch,eGeMAPS,20,0.6166,0.7886,0.0522,False,20
+Dutch,eGeMAPS,30,0.5956,0.9054,0.0496,False,20
+Dutch,eGeMAPS,50,0.5641,0.9993,0.0383,False,20
+Dutch,eGeMAPS,100,0.5638,1.0,0.0357,False,20
+Dutch,ComParE 2016,5,0.6801,0.8328,0.0544,False,20
+Dutch,ComParE 2016,10,0.6892,0.925,0.0519,True,20
+Dutch,ComParE 2016,20,0.682,1.0,0.0413,False,20
+Dutch,ComParE 2016,30,0.6825,1.0,0.0402,False,20
+Dutch,ComParE 2016,50,0.6807,1.0,0.0398,False,20
+Dutch,ComParE 2016,100,0.679,1.0,0.0398,False,20
+Dutch,XLSR-53,5,0.4478,0.4733,0.0372,False,20
+Dutch,XLSR-53,10,0.4152,0.4438,0.0482,False,20
+Dutch,XLSR-53,20,0.4085,0.4389,0.0496,False,20
+Dutch,XLSR-53,30,0.4459,0.4865,0.0532,False,20
+Dutch,XLSR-53,50,0.5579,0.6237,0.064,False,20
+Dutch,XLSR-53,100,0.6843,0.8608,0.0462,True,20
+Dutch,emotion2vec,5,0.7197,0.8624,0.044,False,20
+Dutch,emotion2vec,10,0.7298,0.9907,0.0513,True,20
+Dutch,emotion2vec,20,0.7219,1.0,0.05,False,20
+Dutch,emotion2vec,30,0.7233,1.0,0.0533,False,20
+Dutch,emotion2vec,50,0.7246,1.0,0.0521,False,20
+Dutch,emotion2vec,100,0.7252,1.0,0.0515,False,20
+Dutch,Wav2Vec2-Large MSP,5,0.7579,0.9062,0.0537,False,20
+Dutch,Wav2Vec2-Large MSP,10,0.7546,0.9989,0.0576,False,20
+Dutch,Wav2Vec2-Large MSP,20,0.7586,1.0,0.0558,False,20
+Dutch,Wav2Vec2-Large MSP,30,0.7567,1.0,0.0552,False,20
+Dutch,Wav2Vec2-Large MSP,50,0.7581,1.0,0.0535,False,20
+Dutch,Wav2Vec2-Large MSP,100,0.7593,1.0,0.0551,True,20
+Dutch,WavLM-Large MSP,5,0.7458,0.8707,0.0553,False,20
+Dutch,WavLM-Large MSP,10,0.7539,0.9786,0.051,False,20
+Dutch,WavLM-Large MSP,20,0.7536,1.0,0.0473,False,20
+Dutch,WavLM-Large MSP,30,0.7532,1.0,0.0491,False,20
+Dutch,WavLM-Large MSP,50,0.7543,1.0,0.0484,False,20
+Dutch,WavLM-Large MSP,100,0.7546,1.0,0.0481,True,20
+English,7 Core Prosodic,5,0.61,0.6781,0.0394,False,20
+English,7 Core Prosodic,10,0.6152,0.6791,0.0366,True,20
+English,7 Core Prosodic,20,0.6095,0.6816,0.04,False,20
+English,7 Core Prosodic,30,0.6111,0.6855,0.0382,False,20
+English,7 Core Prosodic,50,0.6116,0.6897,0.0364,False,20
+English,7 Core Prosodic,100,0.6142,0.702,0.0308,False,20
+English,eGeMAPS,5,0.6142,0.7118,0.0653,False,20
+English,eGeMAPS,10,0.6171,0.7267,0.0684,False,20
+English,eGeMAPS,20,0.6198,0.769,0.0586,False,20
+English,eGeMAPS,30,0.6203,0.8264,0.055,True,20
+English,eGeMAPS,50,0.6067,0.9739,0.0504,False,20
+English,eGeMAPS,100,0.6012,0.9937,0.0501,False,20
+English,ComParE 2016,5,0.6595,0.7789,0.0564,False,20
+English,ComParE 2016,10,0.6597,0.798,0.0594,True,20
+English,ComParE 2016,20,0.6583,0.9429,0.0526,False,20
+English,ComParE 2016,30,0.6395,0.9977,0.0415,False,20
+English,ComParE 2016,50,0.6443,1.0,0.0463,False,20
+English,ComParE 2016,100,0.6417,1.0,0.0443,False,20
+English,XLSR-53,5,0.5414,0.5879,0.0493,False,20
+English,XLSR-53,10,0.5542,0.596,0.0516,False,20
+English,XLSR-53,20,0.5743,0.6202,0.0557,False,20
+English,XLSR-53,30,0.593,0.6526,0.0538,False,20
+English,XLSR-53,50,0.6283,0.741,0.0418,False,20
+English,XLSR-53,100,0.6353,0.8906,0.0287,True,20
+English,emotion2vec,5,0.6521,0.8568,0.0442,True,20
+English,emotion2vec,10,0.6415,0.9791,0.0372,False,20
+English,emotion2vec,20,0.625,0.998,0.0446,False,20
+English,emotion2vec,30,0.6218,0.9993,0.0452,False,20
+English,emotion2vec,50,0.6233,1.0,0.0401,False,20
+English,emotion2vec,100,0.6254,1.0,0.0398,False,20
+English,Wav2Vec2-Large MSP,5,0.6609,0.7446,0.0294,False,20
+English,Wav2Vec2-Large MSP,10,0.6691,0.7893,0.0315,False,20
+English,Wav2Vec2-Large MSP,20,0.6696,0.9523,0.0331,True,20
+English,Wav2Vec2-Large MSP,30,0.6516,0.9918,0.0377,False,20
+English,Wav2Vec2-Large MSP,50,0.6545,0.9988,0.0367,False,20
+English,Wav2Vec2-Large MSP,100,0.657,0.9996,0.0401,False,20
+English,WavLM-Large MSP,5,0.6627,0.7812,0.0476,False,20
+English,WavLM-Large MSP,10,0.6797,0.8566,0.0491,True,20
+English,WavLM-Large MSP,20,0.6665,0.9859,0.0492,False,20
+English,WavLM-Large MSP,30,0.6587,0.9943,0.0443,False,20
+English,WavLM-Large MSP,50,0.6537,0.9979,0.0466,False,20
+English,WavLM-Large MSP,100,0.6575,1.0,0.0507,False,20
+Mandarin,7 Core Prosodic,5,0.6757,0.6894,0.0146,False,20
+Mandarin,7 Core Prosodic,10,0.6772,0.6939,0.0152,False,20
+Mandarin,7 Core Prosodic,20,0.6805,0.697,0.0189,False,20
+Mandarin,7 Core Prosodic,30,0.6806,0.6996,0.0199,False,20
+Mandarin,7 Core Prosodic,50,0.6822,0.7044,0.0199,True,20
+Mandarin,7 Core Prosodic,100,0.6811,0.7286,0.0213,False,20
+Mandarin,eGeMAPS,5,0.6315,0.6752,0.0209,False,20
+Mandarin,eGeMAPS,10,0.6401,0.6933,0.0225,False,20
+Mandarin,eGeMAPS,20,0.6538,0.7448,0.0256,False,20
+Mandarin,eGeMAPS,30,0.6594,0.8193,0.0174,True,20
+Mandarin,eGeMAPS,50,0.6341,0.9569,0.0218,False,20
+Mandarin,eGeMAPS,100,0.629,0.9986,0.0265,False,20
+Mandarin,ComParE 2016,5,0.7462,0.7978,0.0307,False,20
+Mandarin,ComParE 2016,10,0.7476,0.8663,0.0328,True,20
+Mandarin,ComParE 2016,20,0.7213,0.9997,0.0217,False,20
+Mandarin,ComParE 2016,30,0.7227,1.0,0.0215,False,20
+Mandarin,ComParE 2016,50,0.7236,1.0,0.0246,False,20
+Mandarin,ComParE 2016,100,0.7239,1.0,0.0204,False,20
+Mandarin,XLSR-53,5,0.6948,0.7105,0.0222,False,20
+Mandarin,XLSR-53,10,0.7156,0.7433,0.0227,False,20
+Mandarin,XLSR-53,20,0.734,0.8027,0.0241,True,20
+Mandarin,XLSR-53,30,0.734,0.8536,0.0281,False,20
+Mandarin,XLSR-53,50,0.7213,0.9293,0.0315,False,20
+Mandarin,XLSR-53,100,0.7022,0.9876,0.0369,False,20
+Mandarin,emotion2vec,5,0.7292,0.837,0.0284,True,20
+Mandarin,emotion2vec,10,0.7129,0.967,0.0301,False,20
+Mandarin,emotion2vec,20,0.7053,0.9999,0.0303,False,20
+Mandarin,emotion2vec,30,0.7046,0.9999,0.0288,False,20
+Mandarin,emotion2vec,50,0.7032,1.0,0.0288,False,20
+Mandarin,emotion2vec,100,0.7027,1.0,0.0279,False,20
+Mandarin,Wav2Vec2-Large MSP,5,0.7133,0.763,0.0257,False,20
+Mandarin,Wav2Vec2-Large MSP,10,0.7253,0.8296,0.0346,True,20
+Mandarin,Wav2Vec2-Large MSP,20,0.7003,0.9701,0.0331,False,20
+Mandarin,Wav2Vec2-Large MSP,30,0.6962,0.9953,0.0298,False,20
+Mandarin,Wav2Vec2-Large MSP,50,0.7014,0.9999,0.0276,False,20
+Mandarin,Wav2Vec2-Large MSP,100,0.6995,1.0,0.0283,False,20
+Mandarin,WavLM-Large MSP,5,0.7285,0.7891,0.0221,False,20
+Mandarin,WavLM-Large MSP,10,0.736,0.8689,0.0253,True,20
+Mandarin,WavLM-Large MSP,20,0.7077,0.9887,0.0231,False,20
+Mandarin,WavLM-Large MSP,30,0.7121,0.9996,0.0207,False,20
+Mandarin,WavLM-Large MSP,50,0.7176,1.0,0.0232,False,20
+Mandarin,WavLM-Large MSP,100,0.7175,1.0,0.0213,False,20
+German,7 Core Prosodic,5,0.6167,0.7116,0.0898,False,20
+German,7 Core Prosodic,10,0.6076,0.7039,0.0871,False,20
+German,7 Core Prosodic,20,0.5965,0.7039,0.0845,False,20
+German,7 Core Prosodic,30,0.6187,0.7096,0.083,False,20
+German,7 Core Prosodic,50,0.6237,0.715,0.0792,True,20
+German,7 Core Prosodic,100,0.6016,0.7472,0.0767,False,20
+German,eGeMAPS,5,0.6281,0.8247,0.0593,False,20
+German,eGeMAPS,10,0.6356,0.8298,0.0686,False,20
+German,eGeMAPS,20,0.6467,0.8724,0.0773,True,20
+German,eGeMAPS,30,0.6352,0.9336,0.0856,False,20
+German,eGeMAPS,50,0.642,0.9997,0.0759,False,20
+German,eGeMAPS,100,0.6392,1.0,0.0758,False,20
+German,ComParE 2016,5,0.6423,0.9668,0.072,True,20
+German,ComParE 2016,10,0.6359,0.9906,0.0685,False,20
+German,ComParE 2016,20,0.6324,0.9982,0.0712,False,20
+German,ComParE 2016,30,0.6188,1.0,0.0773,False,20
+German,ComParE 2016,50,0.6144,1.0,0.0828,False,20
+German,ComParE 2016,100,0.6193,1.0,0.0846,False,20
+German,XLSR-53,5,0.6051,0.7363,0.0818,False,20
+German,XLSR-53,10,0.6149,0.7342,0.084,False,20
+German,XLSR-53,20,0.6309,0.779,0.0908,False,20
+German,XLSR-53,30,0.65,0.8299,0.0714,False,20
+German,XLSR-53,50,0.6626,0.9288,0.0466,True,20
+German,XLSR-53,100,0.6413,1.0,0.0757,False,20
+German,emotion2vec,5,0.6561,0.9997,0.0745,False,20
+German,emotion2vec,10,0.6591,1.0,0.0924,False,20
+German,emotion2vec,20,0.6543,1.0,0.0982,False,20
+German,emotion2vec,30,0.6598,1.0,0.0958,False,20
+German,emotion2vec,50,0.6645,1.0,0.0989,True,20
+German,emotion2vec,100,0.6643,1.0,0.0994,False,20
+German,Wav2Vec2-Large MSP,5,0.6687,0.9821,0.101,False,20
+German,Wav2Vec2-Large MSP,10,0.6891,0.9997,0.0889,False,20
+German,Wav2Vec2-Large MSP,20,0.6861,1.0,0.0815,False,20
+German,Wav2Vec2-Large MSP,30,0.6879,1.0,0.0827,False,20
+German,Wav2Vec2-Large MSP,50,0.6927,1.0,0.0829,True,20
+German,Wav2Vec2-Large MSP,100,0.6821,1.0,0.088,False,20
+German,WavLM-Large MSP,5,0.7089,0.98,0.0859,False,20
+German,WavLM-Large MSP,10,0.7335,0.997,0.0829,False,20
+German,WavLM-Large MSP,20,0.7338,1.0,0.0836,False,20
+German,WavLM-Large MSP,30,0.7308,1.0,0.0884,False,20
+German,WavLM-Large MSP,50,0.7319,1.0,0.0854,False,20
+German,WavLM-Large MSP,100,0.7347,1.0,0.084,True,20

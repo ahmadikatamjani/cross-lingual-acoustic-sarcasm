@@ -16,7 +16,8 @@ from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from config import ALL_PROSODIC as FEATURE_COLS
-from config import DUTCH_AUDIO, DUTCH_METADATA, MCSD_DIR, MUSAG_DIR, MUSTARDPP_DIR, PROSODY_DIR
+from config import (DUTCH_AUDIO, DUTCH_METADATA, MCSD_DIR, MUSAG_DIR, MUSTARDPP_DIR, PROSODY_DIR,
+                    SOURCES)
 
 SR = 16000
 OUT_DIR = PROSODY_DIR
@@ -201,4 +202,7 @@ if __name__ == "__main__":
                     help="ignore any .partial.csv and re-extract from scratch")
     a = ap.parse_args()
     for c in (list(CORPORA) if a.corpus == "all" else [a.corpus]):
+        if not SOURCES[c].exists():
+            print("%s: %s not found, skipped" % (c, SOURCES[c]))
+            continue
         run(c, a.limit, resume=not a.no_resume)
